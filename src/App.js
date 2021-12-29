@@ -130,8 +130,8 @@ import Amplify, { API, graphqlOperation } from "aws-amplify";
 import { createWorkout } from "./graphql/mutations";
 import { listWorkouts } from "./graphql/queries";
 
-import awsExports from "./aws-exports";
-Amplify.configure(awsExports);
+//import awsExports from "./aws-exports";
+//Amplify.configure(awsExports);
 
 function App() {
   return (
