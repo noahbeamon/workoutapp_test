@@ -4,7 +4,7 @@ import Amplify, { API, graphqlOperation } from "aws-amplify";
 import { createWorkout } from "./graphql/mutations";
 import { listWorkouts } from "./graphql/queries";
 
-//problem code
+//problem code - test
 import awsExports from "./aws-exports";
 Amplify.configure(awsExports);
 //
